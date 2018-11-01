@@ -21,7 +21,7 @@ function loadHash() {
 }
 function loadTOC(){
 	//process toc dynamically
-	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  var t='<h2>Tabla de contenidos</h2><ul>';i = 1;j=0;
 	  jQuery(".list").each(function(){
 		if(jQuery(this).is('h2')){
 			if(j>0){
@@ -38,18 +38,18 @@ function loadTOC(){
 			j++;
 			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).text()+'</a></li>';
 		}
-		t = t.replace(' back to ToC','');
+		t = t.replace(' volver a Ã­ndice','');
 	  });
 	  t+='</ul>';
 	  $("#toc").html(t); 
 }
     $(function(){
-      $("#abstract").load("sections/abstract-en.html"); 
-      $("#introduction").load("sections/introduction-en.html"); 
-      $("#overview").load("sections/overview-en.html"); 
-      $("#description").load("sections/description-en.html"); 
-      $("#references").load("sections/references-en.html"); 
-      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+      $("#abstract").load("sections/abstract-es.html"); 
+      $("#introduction").load("sections/introduction-es.html"); 
+      $("#overview").load("sections/overview-es.html"); 
+      $("#description").load("sections/description-es.html"); 
+      $("#references").load("sections/references-es.html"); 
+      $("#crossref").load("sections/crossref-es.html", null, loadHash); 
     });
     </script> 
   </head> 
@@ -62,19 +62,19 @@ function loadTOC(){
 
 
 <dl>
-<dt>This version:</dt>
+<dt>Versi&oacute;n:</dt>
 <dd><a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a></dd>
-<dt>Previous version:</dt>
+<dt>Versi&oacute;n previa:</dt>
 <dd><a href="0.2.0">0.2.0</a></dd>
-<dt>Revision:</dt>
+<dt>Revisi&oacute;n n&uacute;mero:</dt>
 <dd>1.0.0</dd>
-<dt>Authors:</dt>
+<dt>Autores:</dt>
 <dd>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dd><dd>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dd>
 
-<dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="https://creativecommons.org/licenses/by/4.0" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0-blue.svg" alt="https://creativecommons.org/licenses/by/4.0" /></a>
+<dt>Descargar serializaci&oacute;n:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>Licencia:  </dt><dd><a href="https://creativecommons.org/licenses/by/4.0" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0-blue.svg" alt="https://creativecommons.org/licenses/by/4.0" /></a>
 </dd></dl>
 
-<a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
+<a href="provenance/provenance-es.html" target="_blank">Provenance de esta p&aacute;gina</a><hr/>
 </div>
 <div class="status">
 <div>
@@ -88,9 +88,8 @@ function loadTOC(){
      <div id="references"></div>
      <div id="changelog"></div>
 <div id="acknowledgements">
-<h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<p>
-The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+<h2 id="ack" class="list">Agradecimientos <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
+<p>Los autores agradecen a <a href="http://www.essepuntato.it/">Silvio Peroni</a> el desarrollo de <a href="http://www.essepuntato.it/lode">LODE</a>, un entorno de documentaci&oacute;n para OWL que es usado para generar la descripci&oacute;n de t&eacute;rminos de la ontolog&iacute;a de este documento; y a  <a href="http://purl.org/net/dgarijo">Daniel Garijo</a> por desarrollar <a href="https://github.com/dgarijo/Widoco">Widoco</a>, el programa utilizado para producir la plantilla en la que se basa este documento.</p>
 </div>
 
 </div>
