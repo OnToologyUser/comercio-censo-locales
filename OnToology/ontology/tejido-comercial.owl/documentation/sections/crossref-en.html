@@ -1,0 +1,1471 @@
+<h2  id="crossreference" class="list">Cross reference for Vocabulary for data representation of the local business census and activities licenses classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Vocabulary for data representation of the local business census and activities licenses.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#AgrupacionComercial"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#AgrupacionComercial">Grouping Business</a>
+      </li>
+      <li>
+         <a href="#Licencia"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+      </li>
+      <li>
+         <a href="#LocalComercial"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/OpeningHoursSpecification" title="http://schema.org/OpeningHoursSpecification">Opening Hours Specification</a>
+      </li>
+      <li>
+         <a href="#http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal"
+            title="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal">Postal address</a>
+      </li>
+      <li>
+         <a href="#Terraza"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+      </li>
+   </ul>
+   <div class="entity" id="AgrupacionComercial">
+      <h3>Grouping Business<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#AgrupacionComercial</p>
+      <div class="comment">
+         <span class="markdown">Set of premises placed in one or several buildings of the same business space, where different economic activities are carried out.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://schema.org/Place">place</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#contiene"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#contiene">contains</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#LocalComercial"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#contiene"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#contiene">contains</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#tipoAgrupacion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAgrupacion">grouping type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#perteneceA"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceA">belongs to</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Terraza"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Licencia">
+      <h3>License<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia</p>
+      <div class="comment">
+         <span class="markdown">Regulated act where the City Council, after checking compliance with the established conditions by the applicable regulations, authorizes carrying out the activity.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#autorizaActividad"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#autorizaActividad">authorizes economic activity</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#asociadaA"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#asociadaA">associated to</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#asociadaA"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#asociadaA">associated to</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#autorizaActividad"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#autorizaActividad">authorizes economic activity</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#fechaCese"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaCese">cessation date</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#fechaAlta"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaAlta">discharge date</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#seOtorgaA"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#seOtorgaA">is granted to</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#estadoTramitacion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#estadoTramitacion">processing status</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#fechaSolicitud"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaSolicitud">request date</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#tieneLicencia"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneLicencia">have license</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="LocalComercial">
+      <h3>Local Business<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial</p>
+      <div class="comment">
+         <span class="markdown">Local where an enconomic activity can takes place.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://geonames.org/ontology#Feature">feature</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://schema.org/LocalBusiness">local business</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#tieneLicencia"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneLicencia">have license</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">some</span> 
+            <a href="#Licencia"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#perteneceA"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceA">belongs to</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#AgrupacionComercial"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#AgrupacionComercial">Grouping Business</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#tieneTerraza"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneTerraza">have terrace</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">max</span> 1 <a href="#Terraza"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#tipoAcceso"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAcceso">access type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#perteneceA"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceA">belongs to</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#nombreComercial"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#nombreComercial">business name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#referenciaCatastral"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#referenciaCatastral">cadastral reference</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#aforo"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#aforo">capacity</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#tipoActividadEconomica"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoActividadEconomica">economic activity type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#tieneLicencia"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneLicencia">have license</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#tieneTerraza"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneTerraza">have terrace</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#rotulo"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#rotulo">sign</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#tipoSituacion"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoSituacion">situation type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#perteneceALocal"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceALocal">belongs to local</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#contiene"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#contiene">contains</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://schema.org/OpeningHoursSpecification">
+      <h3>Opening Hours Specification<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/OpeningHoursSpecification</p>
+      <div class="comment">
+         <span class="markdown">A structured value providing information about the opening hours of a place or a certain service inside a place. The place is open if the opens property is specified, and closed otherwise. If the value for the closes property is less than the value for the opens property then the hour range is assumed to span over the next day.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal">
+      <h3>Postal address<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal</p>
+      <div class="comment">
+         <span class="markdown">A postal address in Spain. It is defined as a specialization of the classes vcard: Address, schema: PostalAddress and locn: Address. In addition to the properties associated with these classes, and defined in their corresponding vocabulary, you can also use those defined in the vocabularies of Spanish administrative division and in the street.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal">http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://schema.org/PostalAddress">postal address</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2006/vcard/ns#Address">address</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/ns/locn#Address">address</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Terraza">
+      <h3>Terrace<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza</p>
+      <div class="comment">
+         <span class="markdown">The use of a public or private land area affected by public use, prone to be used in hotel industry activities, through the placement of tables, chairs, and umbrellas, as an extension zone of the activity that takes place within those establishments. These facilities will, in any case, be temporary.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://schema.org/Place">place</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#perteneceALocal"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceALocal">belongs to local</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">exactly</span> 1 <a href="#LocalComercial"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#superficie"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#superficie">area</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#perteneceALocal"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceALocal">belongs to local</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#numeroSillas"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#numeroSillas">chairs number</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#periodoFuncionamiento"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#periodoFuncionamiento">functionating period</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#numeroMesas"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#numeroMesas">tables number</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#tieneTerraza"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneTerraza">have terrace</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#AgrupacionComercial"
+               title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#AgrupacionComercial">Grouping Business</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#tipoAcceso"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAcceso">access type</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/address" title="http://schema.org/address">address</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/ns/locn#address" title="http://www.w3.org/ns/locn#address">address</a>
+      </li>
+      <li>
+         <a href="#asociadaA"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#asociadaA">associated to</a>
+      </li>
+      <li>
+         <a href="#autorizaActividad"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#autorizaActividad">authorizes economic activity</a>
+      </li>
+      <li>
+         <a href="#perteneceA"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceA">belongs to</a>
+      </li>
+      <li>
+         <a href="#perteneceALocal"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceALocal">belongs to local</a>
+      </li>
+      <li>
+         <a href="#contiene"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#contiene">contains</a>
+      </li>
+      <li>
+         <a href="#tipoActividadEconomica"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoActividadEconomica">economic activity type</a>
+      </li>
+      <li>
+         <a href="#periodoFuncionamiento"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#periodoFuncionamiento">functionating period</a>
+      </li>
+      <li>
+         <a href="#tipoAgrupacion"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAgrupacion">grouping type</a>
+      </li>
+      <li>
+         <a href="#tieneLicencia"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneLicencia">have license</a>
+      </li>
+      <li>
+         <a href="#tieneTerraza"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneTerraza">have terrace</a>
+      </li>
+      <li>
+         <a href="#seOtorgaA"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#seOtorgaA">is granted to</a>
+      </li>
+      <li>
+         <a href="#estadoTramitacion"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#estadoTramitacion">processing status</a>
+      </li>
+      <li>
+         <a href="#tipoSituacion"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoSituacion">situation type</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/specialOpeningHoursSpecification"
+            title="http://schema.org/specialOpeningHoursSpecification">special opening hours specification</a>
+      </li>
+   </ul>
+   <div class="entity" id="tipoAcceso">
+      <h3>access type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAcceso</p>
+      <div class="comment">
+         <span class="markdown">A local business can have the following access types: street door, interior, or floor. These access types are represented by a list of URI concepts http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-acceso.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://schema.org/address">
+      <h3>address<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/address</p>
+      <div class="comment">
+         <span class="markdown">Physical address of the item.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <span class="dotted" title="http://schema.org/LocalBusiness">local business</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://schema.org/PostalAddress">postal address</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/locn#address">
+      <h3>address<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/locn#address</p>
+      <div class="comment">
+         <span class="markdown">The locn:address property relationship associates any resource with the locn:Address class.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/locn">http://www.w3.org/ns/locn</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="asociadaA">
+      <h3>associated to<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#asociadaA</p>
+      <div class="comment">
+         <span class="markdown">A license is associated to a local business or terrace.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Licencia"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#Terraza"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="autorizaActividad">
+      <h3>authorizes economic activity<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#autorizaActividad</p>
+      <div class="comment">
+         <span class="markdown">A license authorizes one or several economic activities. The economic activity type is represented by some SKOS classification.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Licencia"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="perteneceA">
+      <h3>belongs to<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceA</p>
+      <div class="comment">
+         <span class="markdown">A local business belongs to a grouping business</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#AgrupacionComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#AgrupacionComercial">Grouping Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#contiene"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#contiene">contains</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="perteneceALocal">
+      <h3>belongs to local<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceALocal</p>
+      <div class="comment">
+         <span class="markdown">A terrace belongs to a local business.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Terraza"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#tieneTerraza"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneTerraza">have terrace</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="contiene">
+      <h3>contains<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#contiene</p>
+      <div class="comment">
+         <span class="markdown">A grouping business contains local business.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#AgrupacionComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#AgrupacionComercial">Grouping Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#perteneceA"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceA">belongs to</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="tipoActividadEconomica">
+      <h3>economic activity type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoActividadEconomica</p>
+      <div class="comment">
+         <span class="markdown">Economic activity type that takes place in a local business, according to some SKOS classification.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="periodoFuncionamiento">
+      <h3>functionating period<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#periodoFuncionamiento</p>
+      <div class="comment">
+         <span class="markdown">Terrace functionating period, it can be: annual or seasonal. Periods are represented by the concept list http://vocab.linkeddata.es/datosabiertos/kos/comercio/periodo-funcionamiento.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Terraza"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="tipoAgrupacion">
+      <h3>grouping type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAgrupacion</p>
+      <div class="comment">
+         <span class="markdown">Grouping business type, according to the concept list http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-agrupacion.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#AgrupacionComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#AgrupacionComercial">Grouping Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="tieneLicencia">
+      <h3>have license<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneLicencia</p>
+      <div class="comment">
+         <span class="markdown">A local business can have one or several functionating licenses along to their history.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Licencia"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="tieneTerraza">
+      <h3>have terrace<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneTerraza</p>
+      <div class="comment">
+         <span class="markdown">A local business can have an associated terrace.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Terraza"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#perteneceALocal"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceALocal">belongs to local</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="seOtorgaA">
+      <h3>is granted to<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#seOtorgaA</p>
+      <div class="comment">
+         <span class="markdown">A license is granted to a holder.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Licencia"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://xmlns.com/foaf/0.1/Agent">agent</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="estadoTramitacion">
+      <h3>processing status<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#estadoTramitacion</p>
+      <div class="comment">
+         <span class="markdown">License processing status, it is represented by the SKOS concept list http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-estado-tramite-licencia.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Licencia"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="tipoSituacion">
+      <h3>situation type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoSituacion</p>
+      <div class="comment">
+         <span class="markdown">A local business can be in some of the several situations: active, closed, closed down, or under construction. This situation types are represented by a concept list wiht URI http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-situacion .</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://schema.org/specialOpeningHoursSpecification">
+      <h3>special opening hours specification<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/specialOpeningHoursSpecification</p>
+      <div class="comment">
+         <span class="markdown">El horario especial de apertura de un determinado lugar.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://schema.org">https://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#superficie"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#superficie">area</a>
+      </li>
+      <li>
+         <a href="#nombreComercial"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#nombreComercial">business name</a>
+      </li>
+      <li>
+         <a href="#referenciaCatastral"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#referenciaCatastral">cadastral reference</a>
+      </li>
+      <li>
+         <a href="#aforo"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#aforo">capacity</a>
+      </li>
+      <li>
+         <a href="#fechaCese"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaCese">cessation date</a>
+      </li>
+      <li>
+         <a href="#numeroSillas"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#numeroSillas">chairs number</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/closes" title="http://schema.org/closes">closes</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/dayOfWeek" title="http://schema.org/dayOfWeek">day of week</a>
+      </li>
+      <li>
+         <a href="#fechaAlta"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaAlta">discharge date</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/openingHours" title="http://schema.org/openingHours">opening hours</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/opens" title="http://schema.org/opens">opens</a>
+      </li>
+      <li>
+         <a href="#fechaSolicitud"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaSolicitud">request date</a>
+      </li>
+      <li>
+         <a href="#rotulo"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#rotulo">sign</a>
+      </li>
+      <li>
+         <a href="#numeroMesas"
+            title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#numeroMesas">tables number</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/telephone" title="http://schema.org/telephone">telephone</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/url" title="http://schema.org/url">url</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/validFrom" title="http://schema.org/validFrom">valid from</a>
+      </li>
+      <li>
+         <a href="#http://schema.org/validThrough" title="http://schema.org/validThrough">valid through</a>
+      </li>
+   </ul>
+   <div class="entity" id="superficie">
+      <h3>area<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#superficie</p>
+      <div class="comment">
+         <span class="markdown">The surface in square meters filled by the terrace.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Terraza"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="nombreComercial">
+      <h3>business name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#nombreComercial</p>
+      <div class="comment">
+         <span class="markdown">El nombre comercial es todo aquel signo que puede ser representado gráficamente y, que identifica a una empresa en el tráfico mercantil distinguiéndola de las demás empresas que van a desarrollar actividades idénticas o similares.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="referenciaCatastral">
+      <h3>cadastral reference<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#referenciaCatastral</p>
+      <div class="comment">
+         <span class="markdown">The cadastral reference is the official and mandatory identifier of properties. It consists of an alphanumeric code assigned by the Cadastre to provide a unique cadastral reference to each property in order to place it unequivocally in the cadastral cartography.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="aforo">
+      <h3>capacity<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#aforo</p>
+      <div class="comment">
+         <span class="markdown">Local business capacity defined as the number of people that fit in it.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="fechaCese">
+      <h3>cessation date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaCese</p>
+      <div class="comment">
+         <span class="markdown">Date of cessation activity is notified.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Licencia"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="numeroSillas">
+      <h3>chairs number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#numeroSillas</p>
+      <div class="comment">
+         <span class="markdown">Authorized chairs number for the terrace.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Terraza"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://schema.org/closes">
+      <h3>closes<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/closes</p>
+      <div class="comment">
+         <span class="markdown">The closing hour of the place or service on the given day(s) of the week.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://schema.org/dayOfWeek">
+      <h3>day of week<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/dayOfWeek</p>
+      <div class="comment">
+         <span class="markdown">The day of the week for which these opening hours are valid.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="fechaAlta">
+      <h3>discharge date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaAlta</p>
+      <div class="comment">
+         <span class="markdown">Date when the license request has been solved.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Licencia"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://schema.org/openingHours">
+      <h3>opening hours<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/openingHours</p>
+      <div class="comment">
+         <span class="markdown">The general opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://schema.org/opens">
+      <h3>opens<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/opens</p>
+      <div class="comment">
+         <span class="markdown">The opening hour of the place or service on the given day(s) of the week.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="fechaSolicitud">
+      <h3>request date<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaSolicitud</p>
+      <div class="comment">
+         <span class="markdown">Date of the license request.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Licencia"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia">License</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="rotulo">
+      <h3>sign<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#rotulo</p>
+      <div class="comment">
+         <span class="markdown">Sign or denomination used to make a commercial establishment known to an audience, and to distinguish it from others used for identical or similar activities.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#LocalComercial"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial">Local Business</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="numeroMesas">
+      <h3>tables number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#numeroMesas</p>
+      <div class="comment">
+         <span class="markdown">Authorized tables number for the terrace.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Terraza"
+                  title="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza">Terrace</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#int">int</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://schema.org/telephone">
+      <h3>telephone<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/telephone</p>
+      <div class="comment">
+         <span class="markdown">The telephone number.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://schema.org/url">
+      <h3>url<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/url</p>
+      <div class="comment">
+         <span class="markdown">URL del item</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://schema.org/validFrom">
+      <h3>valid from<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/validFrom</p>
+      <div class="comment">
+         <span class="markdown">The date when the item becomes valid.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://schema.org/validThrough">
+      <h3>valid through<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/validThrough</p>
+      <div class="comment">
+         <span class="markdown">The date after when the item is not valid. For example the end of an offer, salary period, or a period of opening hours.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://schema.org">http://schema.org</a>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

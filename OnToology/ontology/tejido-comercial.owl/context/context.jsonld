@@ -1,0 +1,225 @@
+{
+  "@context" : {
+    "Address" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Address"
+    },
+    "asociadaA" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#asociadaA",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "validFrom" : {
+      "@id" : "http://schema.org/validFrom"
+    },
+    "DireccionPostal" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "validThrough" : {
+      "@id" : "http://schema.org/validThrough"
+    },
+    "dayOfWeek" : {
+      "@id" : "http://schema.org/dayOfWeek"
+    },
+    "tieneTerraza" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneTerraza",
+      "@type" : "@id"
+    },
+    "perteneceALocal" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceALocal",
+      "@type" : "@id"
+    },
+    "fechaCese" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaCese",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "priorVersion" : {
+      "@id" : "http://www.w3.org/2002/07/owl#priorVersion"
+    },
+    "seOtorgaA" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#seOtorgaA",
+      "@type" : "@id"
+    },
+    "tieneLicencia" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tieneLicencia",
+      "@type" : "@id"
+    },
+    "fechaSolicitud" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaSolicitud",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Feature" : {
+      "@id" : "http://geonames.org/ontology#Feature"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "tipoSituacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoSituacion",
+      "@type" : "@id"
+    },
+    "historyNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#historyNote"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "fechaAlta" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#fechaAlta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "openingHours" : {
+      "@id" : "http://schema.org/openingHours"
+    },
+    "superficie" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#superficie",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "opens" : {
+      "@id" : "http://schema.org/opens"
+    },
+    "LocalBusiness" : {
+      "@id" : "http://schema.org/LocalBusiness"
+    },
+    "Agent" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Agent"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "periodoFuncionamiento" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#periodoFuncionamiento",
+      "@type" : "@id"
+    },
+    "autorizaActividad" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#autorizaActividad",
+      "@type" : "@id"
+    },
+    "aforo" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#aforo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "address" : {
+      "@id" : "http://schema.org/address",
+      "@type" : "@id"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "perteneceA" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#perteneceA",
+      "@type" : "@id"
+    },
+    "nombreComercial" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#nombreComercial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "PostalAddress" : {
+      "@id" : "http://schema.org/PostalAddress"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "rotulo" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#rotulo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "telephone" : {
+      "@id" : "http://schema.org/telephone"
+    },
+    "Place" : {
+      "@id" : "http://schema.org/Place"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "LocalComercial" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial"
+    },
+    "referenciaCatastral" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#referenciaCatastral",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "tipoAgrupacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAgrupacion",
+      "@type" : "@id"
+    },
+    "Licencia" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Licencia"
+    },
+    "Terraza" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#Terraza"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "contiene" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#contiene",
+      "@type" : "@id"
+    },
+    "numeroMesas" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#numeroMesas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipoActividadEconomica" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoActividadEconomica",
+      "@type" : "@id"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "OpeningHoursSpecification" : {
+      "@id" : "http://schema.org/OpeningHoursSpecification"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "estadoTramitacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#estadoTramitacion",
+      "@type" : "@id"
+    },
+    "specialOpeningHoursSpecification" : {
+      "@id" : "http://schema.org/specialOpeningHoursSpecification",
+      "@type" : "@id"
+    },
+    "numeroSillas" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#numeroSillas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "tipoAcceso" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAcceso",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasFormat" : {
+      "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "AgrupacionComercial" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#AgrupacionComercial"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "closes" : {
+      "@id" : "http://schema.org/closes"
+    }
+  }
+}
