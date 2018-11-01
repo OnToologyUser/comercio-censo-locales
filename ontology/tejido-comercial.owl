@@ -1,36 +1,30 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#"
      xml:base="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ns="http://creativecommons.org/ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ns="http://creativecommons.org/ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:locn="http://www.w3.org/ns/locn#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:locn="http://www.w3.org/ns/locn#"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">
         <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"/>
-        <ns:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
-        <dc:creator xml:lang="es">Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
-        <dc:date xml:lang="es">2018-11-02</dc:date>
-        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</dc:identifier>
-        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
-        <terms:description xml:lang="en">This vocabulary aims to represent data from the local business census, economic activities, restaurant and catering terraces and opening licenses.</terms:description>
-        <terms:description xml:lang="es">Vocabulario para la representación de los datos que provienen del censo de locales, actividades, terrazas de hostelería y restauración y licencias de apertura.</terms:description>
-        <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"/>
-        <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl"/>
-        <terms:issued xml:lang="es">2018-11-02</terms:issued>
+        <owl:priorVersion xml:lang="es">0.2.0</owl:priorVersion>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
+        <ns:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <terms:description xml:lang="en">This vocabulary aims to represent data from the local business census, economic activities, restaurant and catering terraces and opening licenses.</terms:description>
+        <owl:versionInfo xml:lang="es">1.0.0</owl:versionInfo>
+        <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#"/>
         <terms:title xml:lang="es">Vocabulario para la representación de datos sobre el censo de locales y sus licencias de funcionamiento</terms:title>
         <terms:title xml:lang="en">Vocabulary for data representation of the local business census and activities licenses</terms:title>
-        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">escom</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#"/>
-        <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña. 
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
+        <terms:description xml:lang="es">Vocabulario para la representación de los datos que provienen del censo de locales, actividades, terrazas de hostelería y restauración y licencias de apertura.</terms:description>
+        <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña.   
 
 En esta versión se han agregado metados en inglés y se han eliminado los conceptos que fueron deprecados en la versión previa:
 - ZonaComercial
@@ -41,8 +35,14 @@ En esta versión se han agregado metados en inglés y se han eliminado los conce
 - tipoComercio
 - accesible
 - afluenciaPublico</rdfs:comment>
-        <owl:priorVersion xml:lang="es">0.2.0</owl:priorVersion>
-        <owl:versionInfo xml:lang="es">1.0.0</owl:versionInfo>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</dc:identifier>
+        <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"/>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">escom</vann:preferredNamespacePrefix>
+        <dc:date xml:lang="es">2018-11-02</dc:date>
+        <terms:issued xml:lang="es">2018-11-02</terms:issued>
+        <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl"/>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
+        <dc:creator xml:lang="es">Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
     </owl:Ontology>
     
 
@@ -802,5 +802,5 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
 
 
 
-<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
