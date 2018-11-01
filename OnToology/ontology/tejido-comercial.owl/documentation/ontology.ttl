@@ -24,7 +24,7 @@
                                                                                                            "Vocabulary for data representation of the local business census and activities licenses"@en ;
                                                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "escom" ;
                                                                           <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
-                                                                          rdfs:comment """Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña. 
+                                                                          rdfs:comment """Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña.   
 
 En esta versión se han agregado metados en inglés y se han eliminado los conceptos que fueron deprecados en la versión previa:
 - ZonaComercial

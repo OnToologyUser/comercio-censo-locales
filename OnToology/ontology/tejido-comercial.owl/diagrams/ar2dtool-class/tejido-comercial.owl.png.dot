@@ -1,27 +1,27 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "base:Terraza" "http://xmlns.com/foaf/0.1/Agent" "http://schema.org/PostalAddress" "base:AgrupacionComercial" "-6c81c9e3:166d10c44bc:-7ffc" "skos:Concept" "http://schema.org/LocalBusiness" "base:LocalComercial" "base:Licencia" "-6c81c9e3:166d10c44bc:-7ff6" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "-6caecb0d:166d112eaf1:-7ffc" "base:Terraza" "http://xmlns.com/foaf/0.1/Agent" "http://schema.org/PostalAddress" "base:AgrupacionComercial" "skos:Concept" "http://schema.org/LocalBusiness" "base:LocalComercial" "base:Licencia" "-6caecb0d:166d112eaf1:-7ff6" ; /*classes style*/
 	"NULL" -> "base:AgrupacionComercial" [ label = "owl:onClass" ];
-	"NULL" -> "-6c81c9e3:166d10c44bc:-7ff4" [ label = "rdf:rest" ];
+	"NULL" -> "-6caecb0d:166d112eaf1:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "-6caecb0d:166d112eaf1:-7ffb" [ label = "owl:unionOf" ];
+	"NULL" -> "-6caecb0d:166d112eaf1:-7ff5" [ label = "owl:unionOf" ];
 	"NULL" -> "base:asociadaA" [ label = "owl:onProperty" ];
 	"NULL" -> "base:autorizaActividad" [ label = "owl:onProperty" ];
 	"NULL" -> "base:Terraza" [ label = "rdf:first" ];
-	"NULL" -> "-6c81c9e3:166d10c44bc:-7ffa" [ label = "rdf:rest" ];
-	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
-	"NULL" -> "-6c81c9e3:166d10c44bc:-7ff5" [ label = "owl:unionOf" ];
-	"NULL" -> "-6c81c9e3:166d10c44bc:-7ff6" [ label = "owl:onClass" ];
 	"NULL" -> "base:Terraza" [ label = "owl:onClass" ];
-	"NULL" -> "base:Licencia" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "base:perteneceA" [ label = "owl:onProperty" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "base:Licencia" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "skos:Concept" [ label = "owl:someValuesFrom" ];
-	"NULL" -> "base:LocalComercial" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "base:tieneTerraza" [ label = "owl:onProperty" ];
+	"NULL" -> "base:LocalComercial" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "base:contiene" [ label = "owl:onProperty" ];
-	"NULL" -> "-6c81c9e3:166d10c44bc:-7ffb" [ label = "owl:unionOf" ];
 	"NULL" -> "base:perteneceALocal" [ label = "owl:onProperty" ];
 	"NULL" -> "base:tieneLicencia" [ label = "owl:onProperty" ];
 	"NULL" -> "base:LocalComercial" [ label = "owl:onClass" ];
+	"NULL" -> "-6caecb0d:166d112eaf1:-7ff6" [ label = "owl:onClass" ];
+	"NULL" -> "-6caecb0d:166d112eaf1:-7ff4" [ label = "rdf:rest" ];
 	"NULL" -> "base:LocalComercial" [ label = "rdf:first" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl" [ label = "terms:hasFormat" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" [ label = "terms:hasFormat" ];
@@ -48,7 +48,7 @@ node [shape = rectangle, color="orange"]; "base:Terraza" "http://xmlns.com/foaf/
 	"base:Licencia" -> "skos:Concept" [ label = "base:estadoTramitacion" ];
 	"base:LocalComercial" -> "base:AgrupacionComercial" [ label = "base:perteneceA" ];
 	"base:Terraza" -> "xsd:int" [ label = "base:numeroMesas" ];
-	"base:Licencia" -> "-6c81c9e3:166d10c44bc:-7ffc" [ label = "base:asociadaA" ];
+	"base:Licencia" -> "-6caecb0d:166d112eaf1:-7ffc" [ label = "base:asociadaA" ];
 	"base:LocalComercial" -> "skos:Concept" [ label = "base:tipoAcceso" ];
 	"base:Licencia" -> "xsd:dateTime" [ label = "base:fechaSolicitud" ];
 	"base:LocalComercial" -> "base:Licencia" [ label = "base:tieneLicencia" ];
