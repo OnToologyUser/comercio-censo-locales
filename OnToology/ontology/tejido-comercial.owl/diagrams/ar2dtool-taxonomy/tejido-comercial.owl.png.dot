@@ -1,13 +1,15 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "locn:Address" "base:Terraza" "http://schema.org/PostalAddress" "base:AgrupacionComercial" "http://geonames.org/ontology#Feature" "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal" "http://www.w3.org/2006/vcard/ns#Address" "http://schema.org/LocalBusiness" "base:LocalComercial" "http://schema.org/Place" ; /*classes style*/
-	"base:AgrupacionComercial" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
-	"http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal" -> "locn:Address" [ label = "rdfs:subClassOf" ];
-	"http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal" -> "http://schema.org/PostalAddress" [ label = "rdfs:subClassOf" ];
-	"http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#DireccionPostal" -> "http://www.w3.org/2006/vcard/ns#Address" [ label = "rdfs:subClassOf" ];
-	"base:LocalComercial" -> "http://geonames.org/ontology#Feature" [ label = "rdfs:subClassOf" ];
-	"base:LocalComercial" -> "http://schema.org/LocalBusiness" [ label = "rdfs:subClassOf" ];
-	"base:Terraza" -> "http://schema.org/Place" [ label = "rdfs:subClassOf" ];
+node [shape = rectangle, color="black"]; "escom:Terraza" "16d8f481:166d459d1c2:-7fbc" "16d8f481:166d459d1c2:-7fe2" "escom:LicenciaApertura" "16d8f481:166d459d1c2:-7fc4" "escom:AgrupacionComercial" "16d8f481:166d459d1c2:-7fdc" "16d8f481:166d459d1c2:-7fc9" "schema:LocalBusiness" "escom:LocalComercial" "schema:Place" ; /*classes style*/
+	"escom:AgrupacionComercial" -> "16d8f481:166d459d1c2:-7fe2" [ label = "rdfs:subClassOf" ];
+	"escom:AgrupacionComercial" -> "schema:Place" [ label = "rdfs:subClassOf" ];
+	"escom:LocalComercial" -> "16d8f481:166d459d1c2:-7fc4" [ label = "rdfs:subClassOf" ];
+	"escom:LocalComercial" -> "schema:LocalBusiness" [ label = "rdfs:subClassOf" ];
+	"escom:LocalComercial" -> "16d8f481:166d459d1c2:-7fc9" [ label = "rdfs:subClassOf" ];
+	"escom:Terraza" -> "16d8f481:166d459d1c2:-7fbc" [ label = "rdfs:subClassOf" ];
+	"escom:Terraza" -> "schema:Place" [ label = "rdfs:subClassOf" ];
+	"escom:LicenciaApertura" -> "16d8f481:166d459d1c2:-7fdc" [ label = "rdfs:subClassOf" ];
+	"schema:LocalBusiness" -> "schema:Place" [ label = "rdfs:subClassOf" ];
 
 }
