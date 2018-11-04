@@ -23,8 +23,8 @@
         <terms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl"/>
         <terms:issued xml:lang="es">2018-11-02</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
-        <terms:title xml:lang="es">Vocabulario para la representación de datos sobre el censo de locales, terrazas y licencias de apertura</terms:title>
-        <terms:title xml:lang="en">Vocabulary for the representation of the census of local businesses, terraces and activity licenses</terms:title>
+        <terms:title xml:lang="es">Vocabulario para la representación de datos sobre el censo de locales y terrazas, así como sus actividades económicas y licencias de apertura asociadas</terms:title>
+        <terms:title xml:lang="en">Vocabulary for the representation of the census of local business premises and terraces, as well as their associated economic activities and opening licenses.</terms:title>
         <vann:preferredNamespacePrefix>escom</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#"/>
         <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña.   

@@ -458,10 +458,10 @@
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "es",
-    "@value" : "Vocabulario para la representación de datos sobre el censo de locales, terrazas y licencias de apertura"
+    "@value" : "Vocabulario para la representación de datos sobre el censo de locales y terrazas, así como sus actividades económicas y licencias de apertura asociadas"
   }, {
     "@language" : "en",
-    "@value" : "Vocabulary for the representation of the census of local businesses, terraces and activity licenses"
+    "@value" : "Vocabulary for the representation of the census of local business premises and terraces, as well as their associated economic activities and opening licenses."
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@value" : "escom"
