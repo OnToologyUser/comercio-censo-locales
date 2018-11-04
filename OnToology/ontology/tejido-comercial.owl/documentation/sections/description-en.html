@@ -17,7 +17,7 @@ Figure 1 shows the classes and properties of this vocabulary. <br>
   We will first start with the representation of an opening license for a local business premise. This will be represented as an instance of the class [escom:LicenciaApertura](#LicenciaApertura), which is associated to a local business premise with the property [escom:asociadaA](#asociadaA). The license request date is represented with [escom:fechaSolicitud](#fechaSolicitud) and the processing status is represented by property [escom:estadoTramitacion](#estadoTramitacion), which links the license and the status in which the license is, according to a SKOS codelist that encodes status types. The owner of the license may be a person, group or organisation, which is represented by an instance of the class [foaf:Person](http://xmlns.com/foaf/0.1/Person). Finally, the property [escom:autorizaActividadEconomica](#autorizaActividadEconomica) is used to specify the type of economic activity that the license authorises.
 </span>
 <pre>
-  &lt;http://vocab.linkeddata.es/recurso/licencia/500-2017-11358&gt; a escom:LicenciaApertura ;
+  &lt;http://vocab.linkeddata.es/recurso/licencia-apertura/500-2017-11358&gt; a escom:LicenciaApertura ;
   escom:asociadaA &lt;http://vocab.linkeddata.es/recurso/local-comercial/10003602&gt; ;
   escom:fechaSolicitud "2017/09/18"^^xsd:dateTime ;
   escom:estadoTramitacion &lt;http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-estado-tramite-licencia/en-tramite&gt; ;
@@ -29,7 +29,7 @@ Figure 1 shows the classes and properties of this vocabulary. <br>
 </span>
 <pre>
   &lt;http://vocab.linkeddata.es/recurso/local-comercial/10003602&gt; a escom:LocalComercial ;
-  escom:tieneLicenciaApertura &lt;http://vocab.linkeddata.es/recurso/licencia/500-2017-11358&gt; ;
+  escom:tieneLicenciaApertura &lt;http://vocab.linkeddata.es/recurso/licencia-apertura/500-2017-11358&gt; ;
   dc:identifier "10003602" ;
   escom:rotulo  "Restaurante Cocina del Norte" ;
   escom:aforo	"30"^^xsd:int ;

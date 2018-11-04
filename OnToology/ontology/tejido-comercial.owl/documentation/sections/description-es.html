@@ -17,7 +17,7 @@ La Figura 1 muestra las clases y propiedades del Vocabulario de censo de locales
   En primer lugar para la representación de una licencia se crea una instancia de la clase [escom:LicenciaApertura](#LicenciaApertura) y se asocia a un local mediante la propiedad [escom:asociadaA](#asociadaA). A continuación, la fecha de la solicitud se representa con [escom:fechaSolicitud](#fechaSolicitud) y el estado en el que se encuentra se representa mediante la propiedad [escom:estadoTramitacion](#estadoTramitacion) que enlaza la licencia y el estado en el que se encuentra, conforme un esquema de conceptos de tipos de estado, que para el caso de este ejemplo es en trámite. El titular al que se le otorga la licencia puede ser una persona, grupo u organización, en este caso se representa mediante una instancia de la clase [foaf:Person](http://xmlns.com/foaf/0.1/Person). Finalmente, la propiedad [escom:autorizaActividadEconomica](#autorizaActividadEconomica) se emplea para especificar la actividad que autoriza la licencia.
 </span>
 <pre>
-  &lt;http://vocab.linkeddata.es/recurso/licencia/500-2017-11358&gt; a escom:LicenciaApertura ;
+  &lt;http://vocab.linkeddata.es/recurso/licencia-apertura/500-2017-11358&gt; a escom:LicenciaApertura ;
   escom:asociadaA &lt;http://vocab.linkeddata.es/recurso/local-comercial/10003602&gt; ;
   escom:fechaSolicitud "2017/09/18"^^xsd:dateTime ;
   escom:estadoTramitacion &lt;http://vocab.linkeddata.es/datosabiertos/kos/comercio/tipo-estado-tramite-licencia/en-tramite&gt; ;
@@ -29,7 +29,7 @@ La Figura 1 muestra las clases y propiedades del Vocabulario de censo de locales
 </span>
 <pre>
   &lt;http://vocab.linkeddata.es/recurso/local-comercial/10003602&gt; a escom:LocalComercial ;
-  escom:tieneLicenciaApertura &lt;http://vocab.linkeddata.es/recurso/licencia/500-2017-11358&gt; ;
+  escom:tieneLicenciaApertura &lt;http://vocab.linkeddata.es/recurso/licencia-apertura/500-2017-11358&gt; ;
   dc:identifier "10003602" ;
   escom:rotulo  "Restaurante Cocina del Norte" ;
   escom:aforo	"30"^^xsd:int ;
