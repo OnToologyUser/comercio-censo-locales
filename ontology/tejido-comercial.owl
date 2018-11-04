@@ -29,18 +29,18 @@ En esta versión se han agregado metadatos en inglés y se han eliminado los con
 - accesible
 - afluenciaPublico</rdfs:comment>
         <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
-        <dct:title xml:lang="es">Vocabulario para la representación de datos sobre el censo de locales, terrazas y licencias de apertura</dct:title>
         <owl:versionInfo xml:lang="es">1.0.0</owl:versionInfo>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#"/>
+        <dct:title xml:lang="en">Vocabulary for the representation of the census of local business premises and terraces, as well as their associated economic activities and opening licenses.</dct:title>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dct:description xml:lang="es">Vocabulario para la representación de los datos que provienen del censo de locales, actividades, terrazas de hostelería y restauración y licencias de apertura.</dct:description>
+        <dct:title xml:lang="es">Vocabulario para la representación de datos sobre el censo de locales y terrazas, así como sus actividades económicas y licencias de apertura asociadas</dct:title>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</dc:identifier>
         <dct:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"/>
         <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">escom</vann:preferredNamespacePrefix>
         <dc:date xml:lang="es">2018-11-02</dc:date>
         <dct:issued xml:lang="es">2018-11-02</dct:issued>
         <dct:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl"/>
-        <dct:title xml:lang="en">Vocabulary for the representation of the census of local businesses, terraces and activity licenses</dct:title>
         <dct:description xml:lang="en">This vocabulary aims to represent data from the census of local businesses, together with their economic activities and opening licenses. It also includes terraces associated to restaurants, cafés, etc.</dct:description>
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:creator xml:lang="es">Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
