@@ -86,7 +86,7 @@ SELECT DISTINCT ?distrito?rotulo WHERE{
         ?uriLocal escom:rotulo ?rotulo .
 }
 ```
-En la siguiente [consulta](http://ciudadesabiertas.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fciudadesabiertas.linkeddata.es%2Fcenso-locales&query=PREFIX+escom%3A%3Chttp%3A%2F%2Fvocab.linkeddata.es%2Fdatosabiertos%2Fdef%2Fcomercio%2Ftejido-comercial%23%3E%0D%0APREFIX+esadm%3A%3Chttp%3A%2F%2Fvocab.linkeddata.es%2Fdatosabiertos%2Fdef%2Fsector-publico%2Fterritorio%23%3E%0D%0APREFIX+schema%3A%3Chttp%3A%2F%2Fschema.org%2F%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fhorario+%3FnumeroSillasAutorizadas+%3FnumeroMesasAutorizadas+%3Fsuperficie+WHERE%7B%0D%0A++++++++%3FuriTerraza+a+escom%3ATerraza+.%0D%0A++++++++%3FuriTerraza+escom%3AperteneceALocal+%3FuriLocal+.%0D%0A++++++++%3FuriLocal+escom%3Arotulo+%22CAFETERIA+MARKITOS%22+.%0D%0A++++++++%3FuriTerraza+schema%3AopeningHours+%3Fhorario+.%0D%0A++++++++%3FuriTerraza+escom%3AnumeroSillas+%3FnumeroSillasAutorizadas+.%0D%0A++++++++%3FuriTerraza+escom%3AnumeroMesas+%3FnumeroMesasAutorizadas+.%0D%0A++++++++%3FuriTerraza+escom%3Asuperficie+%3Fsuperficie+.+++%0D%0A%7D%0D%0A&format=text%2Fhtml&timeout=0&debug=on) se obtiene información del horario de funcionamiento, número de sillas y mesas autorizadas, y la superficie de la terraza que pertenece al local "CAFETERIA MARKITOS".
+En la siguiente [consulta](http://ciudadesabiertas.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fciudadesabiertas.linkeddata.es%2Fcenso-locales&query=PREFIX+escom%3A%3Chttp%3A%2F%2Fvocab.linkeddata.es%2Fdatosabiertos%2Fdef%2Fcomercio%2Ftejido-comercial%23%3E%0D%0APREFIX+esadm%3A%3Chttp%3A%2F%2Fvocab.linkeddata.es%2Fdatosabiertos%2Fdef%2Fsector-publico%2Fterritorio%23%3E%0D%0APREFIX+schema%3A%3Chttp%3A%2F%2Fschema.org%2F%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fhorario+%3FnumeroSillasAutorizadas+%3FnumeroMesasAutorizadas+%3Fsuperficie+WHERE%7B%0D%0A++++++++%3FuriTerraza+a+escom%3ATerraza+.%0D%0A++++++++%3FuriTerraza+escom%3AperteneceALocal+%3FuriLocal+.%0D%0A++++++++%3FuriLocal+escom%3Arotulo+%22CAFETERIA+MARKITOS%22+.%0D%0A++++++++%3FuriTerraza+schema%3AopeningHours+%3Fhorario+.%0D%0A++++++++%3FuriTerraza+escom%3AnumeroSillasAutorizadas+%3FnumeroSillasAutorizadas+.%0D%0A++++++++%3FuriTerraza+escom%3AnumeroMesasAutorizadas+%3FnumeroMesasAutorizadas+.%0D%0A++++++++%3FuriTerraza+escom%3Asuperficie+%3Fsuperficie+.+++%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on) se obtiene información del horario de funcionamiento, número de sillas y mesas autorizadas, y la superficie de la terraza que pertenece al local "CAFETERIA MARKITOS".
 
 ```
 PREFIX escom:<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#>
@@ -156,5 +156,18 @@ SELECT DISTINCT (count(?rotulo) as ?total) WHERE{
         ?uriLocal escom:tipoActividadEconomica ?uriActividad .
         ?uriActividad rdfs:label "Restaurantes y puestos de comidas"@es .
         ?uriLocal escom:rotulo ?rotulo .       
+}
+```
+En la siguiente [consulta](http://ciudadesabiertas.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fciudadesabiertas.linkeddata.es%2Fcenso-locales&query=PREFIX+escom%3A%3Chttp%3A%2F%2Fvocab.linkeddata.es%2Fdatosabiertos%2Fdef%2Fcomercio%2Ftejido-comercial%23%3E%0D%0APREFIX+schema%3A%3Chttp%3A%2F%2Fschema.org%2F%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Frotulo+WHERE%7B%0D%0A++++++++%3FuriAgrupacion+a+escom%3AAgrupacionComercial+.%0D%0A%3FuriAgrupacion+schema%3Aname+%22MERCADO+MUNICIPAL+SANTA+MARIA+LA+CABEZA%22+.%0D%0A++++++++%3FuriAgrupacion+escom%3AcontieneLocalComercial+%3FuriLocal+.%0D%0A++++++++%3FuriLocal+escom%3Arotulo+%3Frotulo+.%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on) se obtienen los rótulos de los locales comerciales que contiene la agrupación comercial "MERCADO MUNICIPAL SANTA MARIA LA CABEZA".
+
+```
+PREFIX escom:<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#>
+PREFIX schema:<http://schema.org/>
+
+SELECT DISTINCT ?nombre ?rotulo WHERE{
+        ?uriAgrupacion a escom:AgrupacionComercial .
+        ?uriAgrupacion schema:name "MERCADO MUNICIPAL SANTA MARIA LA CABEZA" .
+        ?uriAgrupacion escom:contieneLocalComercial ?uriLocal .
+        ?uriLocal escom:rotulo ?rotulo .
 }
 ```
