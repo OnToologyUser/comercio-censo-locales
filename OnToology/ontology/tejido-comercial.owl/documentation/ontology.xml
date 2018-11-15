@@ -12,6 +12,11 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">
         <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"/>
+        <dc:contributor xml:lang="es">Oficina Técnica de Participación, Transparencia y Gobierno Abierto - Ayuntamiento de Zaragoza</dc:contributor>
+        <dc:contributor xml:lang="es">Red.es</dc:contributor>
+        <dc:contributor xml:lang="es">Servicio de Acceso a la Información - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor xml:lang="es">Servicio de Informática - Ayuntamiento de Santiago de Compostela</dc:contributor>
+        <dc:contributor xml:lang="es">Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña</dc:contributor>
         <dc:creator xml:lang="es">Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:date xml:lang="es">2018-11-02</dc:date>
@@ -53,6 +58,13 @@ En esta versión se han agregado metadatos en inglés y se han eliminado los con
      -->
 
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     
 
 

@@ -151,6 +151,9 @@
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
     "LicenciaApertura" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LicenciaApertura"
     },

@@ -1,5 +1,10 @@
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> .
+<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/contributor> "Oficina Técnica de Participación, Transparencia y Gobierno Abierto - Ayuntamiento de Zaragoza"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/contributor> "Red.es"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Acceso a la Información - Ayuntamiento de Madrid"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)" .
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/date> "2018-11-02"@es .
@@ -26,6 +31,9 @@
 # #
 # #################################################################
 # 
+# 
+# http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/issued
 <http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
