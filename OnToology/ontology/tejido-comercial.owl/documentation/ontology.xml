@@ -28,7 +28,7 @@
         <terms:hasFormat rdf:resource="http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial.owl"/>
         <terms:issued xml:lang="es">2018-11-02</terms:issued>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
-        <terms:title xml:lang="es">Vocabulario para la representación de datos sobre el censo de locales y terrazas, así como sus actividades económicas y licencias de apertura asociadas</terms:title>
+        <terms:title xml:lang="es">Vocabulario para la representación de datos sobre el censo de locales y terrazas, así como sus actividades económicas y licencias de apertura asociadas.</terms:title>
         <terms:title xml:lang="en">Vocabulary for the representation of the census of local business premises and terraces, as well as their associated economic activities and opening licenses.</terms:title>
         <vann:preferredNamespacePrefix>escom</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#"/>
