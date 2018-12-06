@@ -24,7 +24,7 @@
                                                                                                        <http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial.owl> ;
                                                                   <http://purl.org/dc/terms/issued> "2018-11-02"@es ;
                                                                   <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0> ;
-                                                                  <http://purl.org/dc/terms/title> "Vocabulario para la representación de datos sobre el censo de locales y terrazas, así como sus actividades económicas y licencias de apertura asociadas"@es ,
+                                                                  <http://purl.org/dc/terms/title> "Vocabulario para la representación de datos sobre el censo de locales y terrazas, así como sus actividades económicas y licencias de apertura asociadas."@es ,
                                                                                                    "Vocabulary for the representation of the census of local business premises and terraces, as well as their associated economic activities and opening licenses."@en ;
                                                                   <http://purl.org/vocab/vann/preferredNamespacePrefix> "escom" ;
                                                                   <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
