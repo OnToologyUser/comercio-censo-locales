@@ -98,7 +98,7 @@
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "identifier" : {
-      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+      "@id" : "http://purl.org/dc/terms/identifier"
     },
     "rotulo" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#rotulo",
@@ -123,6 +123,9 @@
     "referenciaCatastral" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#referenciaCatastral",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     },
     "Terraza" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#Terraza"
